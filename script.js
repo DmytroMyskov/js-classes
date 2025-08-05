@@ -15,8 +15,8 @@ class User {
     this.name = name;
     this.role = role;
     this.loggedIn = false;
-    this.password = "default"; // Початковий пароль
-    allUsers.push(this); // Додаємо до глобального масиву
+    this.password = "default";
+    allUsers.push(this);
   }
 
   getName() {
